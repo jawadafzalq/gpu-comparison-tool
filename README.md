@@ -43,3 +43,11 @@ Every axis is scaled from 0 to 100 so they can share one chart.
 - PassMark scores are crowdsourced, so small gaps between cards (for example, an RTX 4080 versus a 4080 SUPER) are within the noise.
 - A card with a very high power draw scores near zero on the Power axis by design. That axis rewards low power draw.
 - Some TDP values for older cards are estimates.
+
+## Live demo
+
+Try the interactive version: https://claude.ai/artifact/1KmDgAR4SNmgWNwwu2qtkx
+
+Pick any two cards from the dropdowns and the radar chart updates. It uses the same cleaned dataset and the same six scoring formulas as the Power BI dashboard.
+
+I built the main version in Power BI (`gpu_chart.pbix`), but my university's Power BI account does not allow public publishing, so I could not share it as a link. The live demo above is a web version of the same tool, built with Claude's help, so that anyone can try it without a Power BI account. The data, cleaning, scoring method and Power BI dashboard are my own work.
